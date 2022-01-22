@@ -3,4 +3,4 @@ class word for Web Fundamentals class
 
 
 
-https://nbroper.github.io/wdd130/week3/idex.html
+https://nbroper.github.io/wdd130/week3/index.html
