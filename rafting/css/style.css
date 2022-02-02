@@ -9,7 +9,7 @@ header {
     border: 1px solid #1b4079;
     background-color: #1098f7;
     font-size: 16px;
-    font-family: "Quintessentail", cursive;
+    font-family: "Noto Sans", sans-serif;
     text-align: center;
     /*display: grid | -ms-inline-grid; */
 }
@@ -18,7 +18,7 @@ body {
     margin: 10px;
     padding: 20px;
     background-color: #bdbbb0;
-    font-family: "Quintessentail", cursive;
+    font-family: "Noto Sans", sans-serif;
 
 }
 
