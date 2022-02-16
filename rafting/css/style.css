@@ -90,11 +90,6 @@ main {
     grid-row: 1/2;
 }
 
-/* .pitch1 p {
-    grid-column: 1/2;   
-    
-} */
-
 .pitch1 picture {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -105,10 +100,6 @@ main {
     grid-row: 2/3;   
     padding-top: 75px;
 }
-
-/* .pitch2 p {
-    grid-column: 2/3;
-} */
 
 .pitch2 img {
     grid-column: 1/2;
