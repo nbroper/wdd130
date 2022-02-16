@@ -6,6 +6,7 @@ body {
     font-size: 16px;
     font-family: "Noto Sans", sans-serif; 
     padding: 0;
+    
 }
 
 header, nav {
@@ -71,6 +72,7 @@ header img {
 
 
 main {
+    background-color: #f4f6f5;
     
 }
 
@@ -79,10 +81,10 @@ main {
     position: relative;
 }
 
-.pitch {
-    display: grid;
-    /* grid-template-columns: 1fr 1fr; */
-    /* grid-template-rows: 1fr 1fr;   */
+.pitch1, .pitch2, .pitch3 {
+    display: grid; 
+    align-items: center; 
+    justify-content: center; 
 }
 
 .pitch1 h2 {
@@ -90,86 +92,72 @@ main {
     grid-row: 1/2;
 }
 
-.pitch1 picture {
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-
-.pitch2 {
-    grid-column: 2/3;
-    grid-row: 2/3;   
-    padding-top: 75px;
-}
-
-.pitch2 img {
+.pitch1 p {
     grid-column: 1/2;
     grid-row: 2/3;
+    padding: 1rem;
 }
 
-.pitch3 {
-    grid-column: 1/3;   
-    padding-bottom: 45px;
+.pitch1 picture {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.pitch2 h2 {
+    grid-column: 2/3;
+    grid-row: 1/2;   
+   
+}
+
+.pitch2 p {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 1rem;
+}
+
+.pitch2 picture {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.pitch3 h2 {
+    grid-column: 1/3;     
+}
+
+.pitch3 p {
+    padding: 1rem;
 }
 
 h2 {
-    color: #1b4079;
+    color: #fff;
     text-align: center;
     box-sizing: content-box;
-    border: 5px solid #1b4079;
-    width: 300px;
+    background-color: #885053;
     padding: 20px;
-    font-size: 30px;
-    margin-left: 50px;
+    
+    
 }
 
-/* .pitch1, .pitch2, .pitch3 {
-    text-align: justify;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #1b4079;
-    color: #1b4079;
+footer {
+    max-width: 1250px;
     background-color: #bdbbb0;
-} */
-
-
-
-
-
-
-
-/* footer {
-    background-color: #1098f7;
-    display: flex;
-    flex-flow: column; 
-    padding: px 0; 
+    display: grid;
+    align-items: center; 
     justify-content: center;
-    align-items: center;
-    border: 1px solid #1b4079;
-} */
+    color:#1b4079;
+    
+}
 
-
+.copyright {
+    grid-column: 1/2;
     
     
+}
     
-    
-
-
-
-/*
-.hero {
-    text-align: center;
-    margin: 10px;  
-    background-color: #ffffff;
-} 
-
-
 .social_icon {
-    padding: 0;
-    float: right;
+    grid-column: 2/3;
+    justify-content: right;
+    padding: 1rem;
+    
+    
 }
-
-footer p {
-    margin: 0;
-}
-
-*/
