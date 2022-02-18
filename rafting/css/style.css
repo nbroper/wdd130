@@ -81,6 +81,15 @@ main {
     position: relative;
 }
 
+.banner {
+    position: absolute;
+    background: #fff;
+    opacity: .5;
+    top: 70%;
+    right: 10%;
+    font-size: xx-large;
+}
+
 .pitch1, .pitch2, .pitch3 {
     display: grid; 
     align-items: center; 
