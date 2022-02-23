@@ -1,0 +1,8 @@
+wdd130
+final project notes 
+
+fonts:
+font-family: 'bubblegum sans', monospace, cursive;
+
+font-family: 'Bubbler One', sans-serif;
+bubblerone
