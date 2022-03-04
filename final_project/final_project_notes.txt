@@ -6,3 +6,10 @@ font-family: 'bubblegum sans', monospace, cursive;
 
 font-family: 'Bubbler One', sans-serif;
 bubblerone
+
+wireframes
+
+home page
+https://wireframe.cc/Rlxbn0
+
+https://wireframe.cc/zsu4X1
