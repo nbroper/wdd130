@@ -233,7 +233,7 @@ h2 {
     background: #fff;
     opacity: 0.6;
     top: 3%;
-    right: center;
+    /* right: center; */
     font-size: medium;
     padding: 1rem;
 }
