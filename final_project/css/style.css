@@ -83,3 +83,82 @@ nav li {
     background-color: #e4cc37;
     font-weight: 700;
 }
+
+
+/* ******************************************main********************************************************* */
+
+.hero {
+    max-width: 100%;
+    position: relative;
+}
+
+.container-med-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    justify-content: center;
+    color: #fff;
+}
+
+.farmland,
+.fruit,
+.crate {}
+
+.farmland {
+    background-color: #299ae0;
+}
+
+.farmland img {
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    align-items: center;
+}
+
+
+/* h2,
+p,
+a {
+    margin: 1rem 1rem;
+    padding: 1rem
+} */
+
+.fruit {
+    background-color: #1e91d6;
+}
+
+
+/* .fruit img {
+    grid-column: 2/3;
+} */
+
+.crate {
+    background-color: #299ae0;
+}
+
+.crate img {
+    grid-column: 3/4;
+}
+
+
+/* *****************************************footer********************************************** */
+
+footer {
+    background-color: #32bea6;
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-icons {
+    grid-column: 2/3;
+    padding: 1rem;
+}
+
+.copyright {
+    grid-column: 1/2;
+}
