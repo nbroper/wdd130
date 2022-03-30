@@ -74,11 +74,10 @@ h2 {
     position: relative;
 }
 
-.container-med-row {
+.container-med-row,
+.container-low-row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* display: block;
-    width: 33.33%; */
     padding: 0.75rem;
     color: #fff;
     background-color: #e4cc37;
@@ -104,15 +103,25 @@ p {
     padding: 0.5rem;
 }
 
+.blog p {
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: left;
+}
 
-/* .fruit {
-    background-color: #1e91d6;
-} */
+.blog li {
+    white-space: normal;
+}
 
+.contact-info p {
+    text-align: left;
+}
 
-/* .crate img {
-    grid-column: 3/4;
-} */
+h2,
+h3 {
+    text-align: center;
+}
 
 
 /* *****************************************product page********************************************** */
@@ -163,28 +172,32 @@ main ul {
     color: #fff;
 }
 
+.main {
+    background-color: #1e91d6;
+}
+
 .activity {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: center;
     padding: 1rem;
+    background-color: #32bea6;
 }
 
-.start h2,
-p {
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-.start picture {
-    grid-column: 2/3;
-    grid-row: 1/2;
+.pic-start,
+.pic-get,
+.pic-tour {
+    display: flex;
+    justify-content: center;
 }
 
 .get h2,
-p {
+.get p {
     grid-column: 2/3;
+}
+
+.pic-get {
+    grid-column: 1/2;
     grid-row: 2/3;
 }
 
@@ -202,6 +215,33 @@ p {
 .tour picture {
     grid-column: 2/3;
     grid-row: 3/4
+}
+
+form {
+    align-items: center;
+    background-color: #e4cc37;
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input {
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #000
 }
 
 
